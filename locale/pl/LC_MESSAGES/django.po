@@ -21,7 +21,7 @@ msgstr "Sponsorzy"
 #: blog/templates/blog.html:67 main/templates/index.html:67
 #: main/templates/index.html:248
 msgid "Code of conduct"
-msgstr "Kodeks postepowania"
+msgstr "Kodeks postępowania"
 
 #: blog/templates/blog.html:70 main/templates/index.html:70
 msgid "Contact"
@@ -176,8 +176,8 @@ msgstr ""
 
 #: microbitpolskaorg/settings.py:127
 msgid "English"
-msgstr "English"
+msgstr "Angielski"
 
 #: microbitpolskaorg/settings.py:128
 msgid "Polish"
-msgstr "Polish"
+msgstr "Polski"
