@@ -1,0 +1,5 @@
+acme.sh --installcert -d microbitpolska.org \
+-d www.microbitpolska.org \
+--keypath  /var/lib/docker/volumes/microbitpolskaorg_nginx_data/_data/ssl/microbitpolska.org.key  \
+--fullchainpath /var/lib/docker/volumes/microbitpolskaorg_nginx_data/_data/ssl/microbitpolska.org.fullchain.cer \
+--reloadcmd  "docker-compose -f ~/microbitpolskaorg/docker-compose.yml restart"
