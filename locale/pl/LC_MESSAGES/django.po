@@ -1,0 +1,183 @@
+# -*- coding: utf-8 -*-
+#: blog/templates/blog.html:55 main/templates/index.html:55
+#: main/templates/index.html:106
+msgid "About"
+msgstr "O nas"
+
+#: blog/templates/blog.html:58 main/templates/index.html:58
+msgid "Blog"
+msgstr ""
+
+#: blog/templates/blog.html:61 main/templates/index.html:61
+#: main/templates/index.html:139
+msgid "Workshops"
+msgstr "Warsztaty"
+
+#: blog/templates/blog.html:64 main/templates/index.html:64
+#: main/templates/index.html:171
+msgid "Sponsors"
+msgstr "Sponsorzy"
+
+#: blog/templates/blog.html:67 main/templates/index.html:67
+#: main/templates/index.html:248
+msgid "Code of conduct"
+msgstr "Kodeks postepowania"
+
+#: blog/templates/blog.html:70 main/templates/index.html:70
+msgid "Contact"
+msgstr "Kontakt"
+
+#: blog/templates/blog.html:93 main/templates/index.html:94
+msgid "Bring BBC Micro:bit and Python to Polish students"
+msgstr ""
+
+#: blog/templates/blog.html:105
+msgid "Give use some more time :)"
+msgstr ""
+
+#: blog/templates/blog.html:111
+msgid ""
+"\n"
+"                    <p>We are going to publish some blog post as soon as "
+"possible !</p>\n"
+"\n"
+"                "
+msgstr ""
+
+#: blog/templates/blog.html:132 main/templates/index.html:341
+msgid "Location"
+msgstr ""
+
+#: blog/templates/blog.html:133 main/templates/index.html:342
+msgid "Poland"
+msgstr ""
+
+#: blog/templates/blog.html:136 main/templates/index.html:345
+msgid "Around the Web"
+msgstr ""
+
+#: blog/templates/blog.html:147 main/templates/index.html:356
+msgid "About Microbit:Polska"
+msgstr ""
+
+#: blog/templates/blog.html:148 main/templates/index.html:357
+msgid ""
+"Microbit:Polska is a project with a very specific goal: teaching about "
+"programming with fun !"
+msgstr ""
+
+#: main/templates/index.html:112
+msgid ""
+"\n"
+"                    <p>You have students around 10 years-old and you want to "
+"teach them about programming.</p>\n"
+"                    <p><b>What do you think is the best way to do this ?</"
+"b></p>\n"
+"                    <p><b><a href=\"https://microbit.org\">BBC</a></b> took "
+"this seriously and they decided to develop, together with more than 20 "
+"partners, <b>BBC Micro:bit</b>.<br />\n"
+"                        An amazing device, with a 5x5 matrix leds, a lot of "
+"inputs and sensors.<br />\n"
+"                        Then the <b><a href=\"https://pyfound.blogspot.co."
+"uk/2016/03/a-million-children.html\">Python Software Foundation</a></b>\n"
+"                        jumped in and said that it was a super cool project, "
+"why don't we put <b><a href=\"https://www.python.org\">Python</a></b> inside "
+"it ?<br />\n"
+"                        <p>The result ?</p>\n"
+"                    <p>You can use BBC Micro:bit and Python to teach young "
+"students about programming, you can do this having fun and with a "
+"programming\n"
+"                        language used almost everywhere.</p>\n"
+"                    <p>And about <b>Microbit:Polska</b> ?</p>\n"
+"                    <p>Well in UK they gave <b><a href=\"http://www.bbc.co."
+"uk/mediacentre/latestnews/2016/bbc-micro-bit-schools-launch\">1 million "
+"Micro:bits</a></b>\n"
+"                        to school children for free, why we should not have "
+"something similar in Poland ?</p>\n"
+"                    <p>Come join in the fun !</p>\n"
+"                "
+msgstr ""
+
+#: main/templates/index.html:145
+msgid ""
+"\n"
+"                    <p>The workshop is called <b>FunWithMicrobit</b>, and "
+"that is the goal, having fun with it.</p>\n"
+"\n"
+"                    <p>It is around 6 hours, the first 4 hours will be "
+"dedicated in teaching how you can use BBC Micro:bit and program it with "
+"Python.</p>\n"
+"\n"
+"                    <p>Python is an open source programming language, easy "
+"to learn and easy to use, that perfectly fits Micro:bit.</p>\n"
+"\n"
+"                    <p>The last 2 hours will be an open lab, where you "
+"develop your Micro:bit\n"
+"                        project helped by the Python programmers and then "
+"present it.</p>\n"
+"\n"
+"                    <p>A workshop is generally formed by 30 students, 5 "
+"teachers and 5 Python programmers,\n"
+"                        and it is generally held during one day of the week-"
+"end.</p>\n"
+"                    <p>You can check the materials of the workshop <a href="
+"\"https://github.com/MicrobitPolska/FunWithMicrobit\">here</a>.</p>\n"
+"                    <p>Do you want to host a workshop in your school ?</p>\n"
+"                "
+msgstr ""
+
+#: main/templates/index.html:254
+msgid ""
+"\n"
+"                    <p><b>Microbit:Polska</b> is a project made up from "
+"people with different skills, personalities and experiences.\n"
+"                        <br />\n"
+"                        And it is through these differences that this "
+"project can grow up and evolve.\n"
+"                    </p>\n"
+"                    <p>We believe that as a Student, Teacher and Programmer "
+"we should be driven by being <b>#open</b>, <b>#considerate</b> and "
+"<b>#respectful</b>.</p>\n"
+"\n"
+"                    <h3>The very very short version</h3>\n"
+"                    <p>We are good to each other, we contribute to this "
+"project and we take part in it not because we have to but because we want "
+"to.\n"
+"                    </p>\n"
+"\n"
+"                    <h3>The long version</h3>\n"
+"\n"
+"                    <p>For the long version we decided to use the <a href="
+"\"http://berlincodeofconduct.org/\"><b>Berlin Code of Conduct</b></a>.</p>\n"
+"\n"
+"\n"
+"                     <p>Questions/Comments/Reports ?</p>\n"
+"                    <p>For anything related to the Code of Conduct feel free "
+"to write to the Microbit:Polska organisers: info@microbitpolska.org\n"
+"                    </p>\n"
+"                    "
+msgstr ""
+
+#: main/templates/index.html:285
+msgid "Do you want to host a workshop ?"
+msgstr ""
+
+#: main/templates/index.html:396
+msgid ""
+"The <a href=\"https://www.python.org\">Python Software Foundation</a> helped "
+"the Microbit:Polska project from the beginning, providing the initial "
+"founding to start the project. The PSF is also one of the partner of the "
+"Micro:bit Education Foundation."
+msgstr ""
+
+#: main/templates/index.html:398 main/templates/index.html:422
+msgid "Close"
+msgstr ""
+
+#: microbitpolskaorg/settings.py:127
+msgid "English"
+msgstr "English"
+
+#: microbitpolskaorg/settings.py:128
+msgid "Polish"
+msgstr "Polish"
