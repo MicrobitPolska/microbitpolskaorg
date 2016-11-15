@@ -1,4 +1,7 @@
-# -*- coding: utf-8 -*-
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+
 #: blog/templates/blog.html:55 main/templates/index.html:55
 #: main/templates/index.html:106
 msgid "About"
