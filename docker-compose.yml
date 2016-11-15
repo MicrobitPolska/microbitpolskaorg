@@ -20,7 +20,7 @@ services:
     expose:
       - "80"
     env_file:
-      - docker/web_app/web.env
+      - docker/web_app/web_app.env
     volumes:
       - web_data:/usr/src/microbitpolskaorg
     command: gunicorn microbitpolskaorg.wsgi:application --bind 0.0.0.0:80 --workers 4
