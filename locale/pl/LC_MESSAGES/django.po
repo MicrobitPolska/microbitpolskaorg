@@ -1,6 +1,8 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=utf-8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-17 05:53+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 #: blog/templates/blog.html:55 main/templates/index.html:55
 #: main/templates/index.html:106
@@ -17,16 +19,17 @@ msgid "Workshops"
 msgstr "Warsztaty"
 
 #: blog/templates/blog.html:64 main/templates/index.html:64
-#: main/templates/index.html:171
+#: main/templates/index.html:170
 msgid "Sponsors"
 msgstr "Sponsorzy"
 
 #: blog/templates/blog.html:67 main/templates/index.html:67
-#: main/templates/index.html:248
+#: main/templates/index.html:247
 msgid "Code of conduct"
 msgstr "Kodeks postępowania"
 
 #: blog/templates/blog.html:70 main/templates/index.html:70
+#: main/templates/index.html:284
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -47,23 +50,23 @@ msgid ""
 "                "
 msgstr ""
 
-#: blog/templates/blog.html:132 main/templates/index.html:341
+#: blog/templates/blog.html:132 main/templates/index.html:310
 msgid "Location"
 msgstr ""
 
-#: blog/templates/blog.html:133 main/templates/index.html:342
+#: blog/templates/blog.html:133 main/templates/index.html:311
 msgid "Poland"
 msgstr ""
 
-#: blog/templates/blog.html:136 main/templates/index.html:345
+#: blog/templates/blog.html:136 main/templates/index.html:314
 msgid "Around the Web"
 msgstr ""
 
-#: blog/templates/blog.html:147 main/templates/index.html:356
+#: blog/templates/blog.html:147 main/templates/index.html:325
 msgid "About Microbit:Polska"
 msgstr ""
 
-#: blog/templates/blog.html:148 main/templates/index.html:357
+#: blog/templates/blog.html:148
 msgid ""
 "Microbit:Polska is a project with a very specific goal: teaching about "
 "programming with fun !"
@@ -72,10 +75,10 @@ msgstr ""
 #: main/templates/index.html:112
 msgid ""
 "\n"
-"                    <p>You have students around 10 years-old and you want to "
-"teach them about programming.</p>\n"
-"                    <p><b>What do you think is the best way to do this ?</"
-"b></p>\n"
+"                    <p>You have students around 10 years old, and you want "
+"to teach them about programming.</p>\n"
+"                    <p><b>What do you think is the best way to do this?</b></"
+"p>\n"
 "                    <p><b><a href=\"https://microbit.org\">BBC</a></b> took "
 "this seriously and they decided to develop, together with more than 20 "
 "partners, <b>BBC Micro:bit</b>.<br />\n"
@@ -85,19 +88,19 @@ msgid ""
 "uk/2016/03/a-million-children.html\">Python Software Foundation</a></b>\n"
 "                        jumped in and said that it was a super cool project, "
 "why don't we put <b><a href=\"https://www.python.org\">Python</a></b> inside "
-"it ?<br />\n"
-"                        <p>The result ?</p>\n"
+"it?<br />\n"
+"                        <p>The result?</p>\n"
 "                    <p>You can use BBC Micro:bit and Python to teach young "
-"students about programming, you can do this having fun and with a "
+"students about programming. You can do this while having fun, and with a "
 "programming\n"
-"                        language used almost everywhere.</p>\n"
-"                    <p>And about <b>Microbit:Polska</b> ?</p>\n"
+"                        language that is used almost everywhere.</p>\n"
+"                    <p>What about <b>Microbit:Polska</b>?</p>\n"
 "                    <p>Well in UK they gave <b><a href=\"http://www.bbc.co."
 "uk/mediacentre/latestnews/2016/bbc-micro-bit-schools-launch\">1 million "
 "Micro:bits</a></b>\n"
 "                        to school children for free, why we should not have "
-"something similar in Poland ?</p>\n"
-"                    <p>Come join in the fun !</p>\n"
+"something similar in Poland?</p>\n"
+"                    <p>Come join in the fun!</p>\n"
 "                "
 msgstr ""
 
@@ -105,38 +108,36 @@ msgstr ""
 msgid ""
 "\n"
 "                    <p>The workshop is called <b>FunWithMicrobit</b>, and "
-"that is the goal, having fun with it.</p>\n"
+"that is the goal: having fun with it.</p>\n"
 "\n"
-"                    <p>It is around 6 hours, the first 4 hours will be "
-"dedicated in teaching how you can use BBC Micro:bit and program it with "
+"                    <p>It takes around 6 hours: the first 4 hours are "
+"dedicated to teaching how to use the BBC Micro:bit and program it with "
 "Python.</p>\n"
 "\n"
 "                    <p>Python is an open source programming language, easy "
 "to learn and easy to use, that perfectly fits Micro:bit.</p>\n"
 "\n"
-"                    <p>The last 2 hours will be an open lab, where you "
-"develop your Micro:bit\n"
-"                        project helped by the Python programmers and then "
-"present it.</p>\n"
+"                    <p>The last 2 hours are an open lab, where you develop "
+"your Micro:bit\n"
+"                        project, helped by the Python programmers, and then "
+"show it to others.</p>\n"
 "\n"
-"                    <p>A workshop is generally formed by 30 students, 5 "
-"teachers and 5 Python programmers,\n"
-"                        and it is generally held during one day of the week-"
-"end.</p>\n"
-"                    <p>You can check the materials of the workshop <a href="
-"\"https://github.com/MicrobitPolska/FunWithMicrobit\">here</a>.</p>\n"
-"                    <p>Do you want to host a workshop in your school ?</p>\n"
+"                    <p>A workshop is formed by 30 students, 5 teachers and 5 "
+"Python programmers,\n"
+"                        and it is held during one day of the week-end.</p>\n"
+"                    <p>You can check <a href=\"https://github.com/"
+"MicrobitPolska/FunWithMicrobit\">the materials for the workshop</a>.</p>\n"
 "                "
 msgstr ""
 
-#: main/templates/index.html:254
+#: main/templates/index.html:253
 msgid ""
 "\n"
-"                    <p><b>Microbit:Polska</b> is a project made up from "
-"people with different skills, personalities and experiences.\n"
+"                    <p><b>Microbit:Polska</b> is a project made up of people "
+"with different skills, personalities and experiences.\n"
 "                        <br />\n"
 "                        And it is through these differences that this "
-"project can grow up and evolve.\n"
+"project can grow and evolve.\n"
 "                    </p>\n"
 "                    <p>We believe that as a Student, Teacher and Programmer "
 "we should be driven by being <b>#open</b>, <b>#considerate</b> and "
@@ -154,18 +155,39 @@ msgid ""
 "\"http://berlincodeofconduct.org/\"><b>Berlin Code of Conduct</b></a>.</p>\n"
 "\n"
 "\n"
-"                     <p>Questions/Comments/Reports ?</p>\n"
+"                     <p>Questions/Comments/Reports?</p>\n"
 "                    <p>For anything related to the Code of Conduct feel free "
-"to write to the Microbit:Polska organisers: info@microbitpolska.org\n"
+"to write to the Microbit:Polska organisers: <b>info@microbitpolska.org</b>\n"
 "                    </p>\n"
 "                    "
 msgstr ""
 
-#: main/templates/index.html:285
-msgid "Do you want to host a workshop ?"
+#: main/templates/index.html:290
+msgid ""
+"\n"
+"                        <p>Are you curious where we are going to have the "
+"next workshop?</p>\n"
+"                        <p>Or maybe you want to ask us more information "
+"about <b>Microbit:Polska</b> or <b>you want to host a workshop in your "
+"school?</b></p>\n"
+"                        <p>Well, whatever is the reason we cannot wait to be "
+"in touch with you!</p>\n"
+"                        <p>Just drop us a few lines and we will be back as "
+"soon as possible.</p>\n"
+"\n"
+"                        <p>Ohhh, yes this is our email: "
+"<b>info@microbitpolska.org</b></p>\n"
+"\n"
+"                    "
 msgstr ""
 
-#: main/templates/index.html:396
+#: main/templates/index.html:326
+msgid ""
+"Microbit:Polska is a project with a very specific goal: teaching about "
+"programming with fun!"
+msgstr ""
+
+#: main/templates/index.html:365
 msgid ""
 "The <a href=\"https://www.python.org\">Python Software Foundation</a> helped "
 "the Microbit:Polska project from the beginning, providing the initial "
@@ -173,7 +195,7 @@ msgid ""
 "Micro:bit Education Foundation."
 msgstr ""
 
-#: main/templates/index.html:398 main/templates/index.html:422
+#: main/templates/index.html:367 main/templates/index.html:391
 msgid "Close"
 msgstr ""
 
