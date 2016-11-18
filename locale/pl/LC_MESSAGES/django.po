@@ -11,7 +11,7 @@ msgstr "O nas"
 
 #: blog/templates/blog.html:58 main/templates/index.html:58
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: blog/templates/blog.html:61 main/templates/index.html:61
 #: main/templates/index.html:139
@@ -35,7 +35,7 @@ msgstr "Kontakt"
 
 #: blog/templates/blog.html:93 main/templates/index.html:94
 msgid "Bring BBC Micro:bit and Python to Polish students"
-msgstr ""
+msgstr "Pokaż polskim uczniom urządzenie BBC Micro:bit oraz język Python"
 
 #: blog/templates/blog.html:105
 msgid "Give use some more time :)"
@@ -52,11 +52,11 @@ msgstr ""
 
 #: blog/templates/blog.html:132 main/templates/index.html:310
 msgid "Location"
-msgstr ""
+msgstr "Miejsce"
 
 #: blog/templates/blog.html:133 main/templates/index.html:311
 msgid "Poland"
-msgstr ""
+msgstr "Polska"
 
 #: blog/templates/blog.html:136 main/templates/index.html:314
 msgid "Around the Web"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: main/templates/index.html:367 main/templates/index.html:391
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: microbitpolskaorg/settings.py:127
 msgid "English"
