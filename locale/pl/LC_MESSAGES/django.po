@@ -39,7 +39,7 @@ msgstr "Pokaż polskim uczniom urządzenie BBC Micro:bit oraz język Python"
 
 #: blog/templates/blog.html:105
 msgid "Give us some more time :)"
-msgstr ""
+msgstr "Daj nam trochę czasu :)"
 
 #: blog/templates/blog.html:111
 msgid ""
