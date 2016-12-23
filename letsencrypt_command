@@ -1,3 +1,6 @@
+# Remember to generate also the dhparam
+# openssl dhparam -out /var/lib/docker/volumes/microbitpolskaorg_nginx_data/_data/ssl/dhparam.pem 2048
+
 acme.sh --installcert -d microbitpolska.org \
 -d www.microbitpolska.org \
 --keypath  /var/lib/docker/volumes/microbitpolskaorg_nginx_data/_data/ssl/microbitpolska.org.key  \
