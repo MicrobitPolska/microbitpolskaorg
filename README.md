@@ -60,3 +60,12 @@ Inside docker/web_app/web_app.env put:
 * SECRET_KEY=YOUR_SECRET_KEY
 * EMAIL_HOST_USER=YOUR_EMAIL_USER
 * EMAIL_HOST_PASSWORD=YOUR_EMAIL_PASSWORD
+
+# Contributors
+
+Special thanks to:
+
+* Marek Skaliński ([PowerMarcus](https://github.com/PowerMarcus/))
+* Radomir Dopieralski ([deshipu](https://github.com/PowerMarcus/))
+* Piotr Kasprzyk ([kwadrat](https://github.com/PowerMarcus/))
+* Karolina Baran ([kwadrat](https://github.com/karolinabaran/))
