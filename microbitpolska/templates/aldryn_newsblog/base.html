@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load i18n apphooks_config_tags cms_tags sekizai_tags staticfiles thumbnail %}
+
+
+{% block page %}
+<!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">
+                            {% block article_title %}
+                             {% page_attribute "page_title" %}
+                             {% endblock %} 
+                           </span>
+                        <hr class="star-light">
+                        {% block article_date %}
+                        {% endblock %} 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Portfolio Grid Section -->
+    <section id="about">
+        <div class="container">
+             <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    {% block newsblog_content %}
+                    {# article_list.html and article_detail.html extend this template #}
+                    {% endblock %} 
+                </div>
+
+            </div>
+        </div>
+    </section>
+{% endblock page %}

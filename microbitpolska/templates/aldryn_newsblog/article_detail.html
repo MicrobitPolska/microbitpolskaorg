@@ -1,0 +1,38 @@
+{% extends "aldryn_newsblog/base.html" %}
+{% load i18n cms_tags apphooks_config_tags %}
+
+{% block title %}
+    {{ article.title }}
+{% endblock %}
+
+{% block article_title %}
+    {{ article.title }}
+{% endblock %} 
+
+{% block article_date %}
+<p class="post-meta"><b> Posted by 
+            {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
+            on {{ article.publishing_date|date:"l, d F Y"  }}
+            </b>
+        </p>
+{% endblock %}
+
+{% block newsblog_content %}
+    {% include "aldryn_newsblog/includes/article.html" with detail_view="true" %}
+
+    {% static_placeholder "newsblog_social" %}
+<hr>
+
+<div class="text-center">
+    <div class="btn-group "  role="group" aria-label="...">
+        {% if prev_article %}
+        <button type="button" class="btn btn-default"><a href="{{ prev_article.get_absolute_url }}">{% trans "Previous Article" %}</button></a>
+        {% endif %}
+        <button type="button" class="btn btn-default"><a href="{% namespace_url "article-list" %}">{% trans "Back to Overview" %}</button></a>
+        {% if next_article %}
+        <button type="button" class="btn btn-default"><a href="{{ next_article.get_absolute_url }}">{% trans "Next Article" %}</button></a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,34 @@
+{% load i18n staticfiles thumbnail cms_tags apphooks_config_tags %}
+
+<article class="article
+    {% if article.is_featured %} featured{% endif %}
+    {% if not article.published %} unpublished{% endif %}">
+
+    <div class="post-preview">
+        {% if not detail_view %}
+        <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">
+            
+            <h2 class="post-title">
+           {{ article.title }}
+            </h2>
+        </a>
+        {% endif %}
+           {% if article.lead_in %}
+            <span class="post-subtitle"> 
+                    {{ article.lead_in|safe}}
+            </span>
+           {% endif %}
+        {% if not detail_view %}
+        <p class="post-meta"><b> {% trans "Posted by" %} 
+            {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
+            {% trans "on" %} {{ article.publishing_date|date:"d F Y"  }}
+            </b>
+        </p>
+        {% endif %}
+    </div>
+    <hr>
+    
+    {% if detail_view %}
+        {% render_placeholder article.content language placeholder_language %}
+    {% endif %}
+</article>

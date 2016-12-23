@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load staticfiles i18n cms_tags sekizai_tags menu_tags %}
+
+{% block page %}
+<!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">{% page_attribute "page_title" %}</span>
+                        <hr class="star-light">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Portfolio Grid Section -->
+    <section id="about">
+        <div class="container">
+             <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                     {% placeholder "content" or %}There is no content.{% endplaceholder %}
+                </div>
+
+            </div>
+        </div>
+    </section>
+{% endblock page %}

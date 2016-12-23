@@ -1,0 +1,8 @@
+{% load i18n staticfiles thumbnail apphooks_config_tags %}
+
+{% if author %}
+    <a href="{% namespace_url "article-list-by-author" author.slug namespace=namespace default='' %}">
+        {{ author.name }}
+    </a>
+{% endif %}
+

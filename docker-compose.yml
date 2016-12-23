@@ -1,0 +1,31 @@
+version: '2'
+
+services:
+  nginx:
+    restart: always
+    build: docker/nginx
+    ports:
+        - "80:80"
+        - "443:443"
+    volumes:
+        - nginx_log:/var/log/nginx
+        - nginx_data:/etc/nginx
+    volumes_from:
+      - web_app
+    depends_on:
+      - web_app
+  web_app:
+    restart: always
+    build: docker/web_app
+    expose:
+      - "80"
+    env_file:
+      - docker/web_app/web_app.env
+    volumes:
+      - web_data:/usr/src/microbitpolska.org
+    command: gunicorn microbitpolska.wsgi:application --bind 0.0.0.0:80 --workers 4
+
+volumes:
+  nginx_data:
+  nginx_log:
+  web_data:
