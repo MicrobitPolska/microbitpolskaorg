@@ -22,17 +22,18 @@ Step into newly created `microbitpolskaorg` directory:
 
     cd microbitpolskaorg
 
-Create a new virtual environment if needed (or use conda env). Then, install all the required dependencies:
+Create a new virtual environment if needed (or use conda env). 
+Then, install all the required dependencies:
 
     pip install -r requirements.txt
 
 Run the migration to create database schema:
 
-    python manage.py runserver --settings=microbitpolska.local_settings migrate
+    python manage.py --settings=microbitpolska.local_settings migrate
 
 Create a user so you can login to the admin:
 
-   python manage.py runserver --settings=microbitpolska.local_settings createsuperuser
+   python manage.py --settings=microbitpolska.local_settings createsuperuser
 
 Run your local server::
 
