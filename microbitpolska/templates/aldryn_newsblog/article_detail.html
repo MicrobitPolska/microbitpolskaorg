@@ -7,10 +7,10 @@
 
 {% block article_title %}
     {{ article.title }}
-{% endblock %} 
+{% endblock %}
 
 {% block article_date %}
-<p class="post-meta"><b> Posted by 
+<p class="post-meta"><b> Posted by
             {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
             on {{ article.publishing_date|date:"l, d F Y"  }}
             </b>
@@ -21,6 +21,11 @@
     {% include "aldryn_newsblog/includes/article.html" with detail_view="true" %}
 
     {% static_placeholder "newsblog_social" %}
+
+<hr>
+<center>
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
+</center>
 <hr>
 
 <div class="text-center">
@@ -34,5 +39,6 @@
         {% endif %}
     </div>
 </div>
-{% endblock %}
 
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-586d82804761c8b4"></script>
+{% endblock %}

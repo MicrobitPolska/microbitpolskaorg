@@ -108,7 +108,7 @@ msgstr "Polska"
 
 #: microbitpolska/templates/footer.html:12
 msgid "Around the Web"
-msgstr "Nasze społeczności"
+msgstr "Znajdziesz nas też tu"
 
 #: microbitpolska/templates/footer.html:20
 msgid "About Microbit:Polska"
@@ -119,9 +119,8 @@ msgid ""
 "Microbit:Polska is a project with a very specific goal: teaching about "
 "programming with fun!"
 msgstr ""
-"Microbit:Polska jest projektem, którego celem jest uczenie programowania "
-"połączone z zabawą !"
+"Microbit:Polska to projekt, w którym łączymy naukę programowania z zabawą!"
 
 #: microbitpolska/templates/home.html:14
 msgid "Bring BBC Micro:bit and Python to Polish students"
-msgstr "Pokaż polskim uczniom urządzenie BBC Micro:bit oraz język Python"
+msgstr "Pokazujemy polskim dzieciom urządzenie BBC Micro:bit i język Python"
